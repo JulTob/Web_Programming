@@ -1,0 +1,129 @@
+/* SELECTORES*/
+body{
+  font-family: cursive;
+  color: Gainsboro;
+  background-color: SlateGray;
+  text-align: center;
+}
+
+#cabecera{
+  font-size: 0.8em;
+  background-color: DarkGrey;
+  height: 50px;
+  text-align: left;
+  margin: 0;
+  border: 0;
+  line-height: 50px;
+}
+
+#titulo{
+  font-size: 2em;
+  float: left;
+}
+
+#extension-cabecera{
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#extension-cabecera li{
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.Texto{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#cabecera a{
+  color: White;
+  text-decoration: none;
+}
+#cabecera a:hover{
+  color: PaleTurquoise;
+}
+
+a{
+  color: White;
+  text-decoration: none;
+}
+
+#contenido{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 50px 20px;
+}
+
+.post{}
+
+.autor-post{
+  display: block;
+  float: left;
+}
+.autor-post img {
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+}
+.autor-post span {
+  margin-left: 15px;
+}
+.autor-post a{
+  color: White;
+  text-decoration: none;
+}
+.fecha{
+  font-size: 0.7em;
+  text-align: right;
+  display: inline;
+  font-weight: bolder;
+}
+
+.titulo-post, .titulo-sobreMi{
+  font-size: 1.3em;
+}
+
+.contenido-post{
+  text-align: justify;
+  padding: 10px;
+}
+
+#pieDeP{
+  background-color: Gainsboro;
+  color: SlateGray;
+  padding: 10px 0;
+}
+
+.columna{
+  font-size: 0.5em;
+  min-width: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+#pieDeP h4{
+  font-size: 2em;
+  color: LightSlateGray;
+  text-transform: uppercase;
+  letter-spacing: 0.1em
+}
+
+#pieDeP a{
+  color: LightSlateGray;
+  text-decoration: none;
+}
+#pieDeP a:hover{
+  color: PaleTurquoise;
+}
+
+.sobreMi{}
+
+.autor-sobreMi{}
+
+.contenido-sobreMi{
+  text-align: center;
+}
